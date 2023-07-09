@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Adding Ways and Selectors</title>
+
+    <!-- internal css -->
+    <style>
+        /* element selector */
+        p{
+            color:blue;
+        }
+
+        /* id selector */
+        #lorem50
+        {
+            font-family: cursive;
+            font-size: x-large;
+        }
+
+        /* class selector */
+        .lorem
+        {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: tomato;
+        }
+
+        /* group selectors */
+        /* specific element with id and class */
+        h1,footer,span#lorem50,div.lorem{
+            background-color: rgb(127, 153, 255);
+            text-align: center;
+        }
+    </style>
+    <!--external css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- inline css -->
+    <h1 style="color:yellow">CSS Adding Ways and Selectors</h1>
+
+    <p class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, mollitia!</p>
+    <p id="lorem50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti tempora quibusdam vel suscipit cumque tempore reiciendis quisquam neque pariatur, culpa nihil eius praesentium repellat nesciunt, asperiores dolorum accusantium dolore necessitatibus, sed eaque at sapiente officiis cupiditate delectus! Delectus, maxime exercitationem!</p>
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem dolor error tempora rerum quasi molestias dolores maiores molestiae temporibus voluptatem?</div>
+    <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a eum nisi sequi deleniti dolore mollitia fuga. Amet laborum vero dolore perspiciatis dolor sed repellendus?</div>
+
+    <span id="lorem50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, ipsam!
+    </span>
+
+    <p> page </p>
+
+    <footer>End of page</footer>
+</body>
+</html>
