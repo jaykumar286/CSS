@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox,Media Query</title>
+
+    <style>
+        .container
+        {
+            display: flex;
+            width:500px;
+            background-color: azure;
+            padding: 10px;
+            margin: 20px;
+            border:5px solid red;
+            flex-direction: row;
+        }
+
+        img{
+            width: 200px;
+        }
+
+        #box1
+        {
+            width:40%;
+            padding: 5px;
+            margin: 5px;
+            border: 2px solid black;
+        }
+
+        #box2{
+            width:40%;
+            padding: 5px;
+            margin: 5px;
+            border: 2px solid black;
+        }
+
+        @media (max-width:400px) {
+            .container{
+                flex-direction: column;
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box1">
+
+            <p>Text 1</p>
+            <p>Text 2</p>
+        </div>
+        <div id="box2">
+            <img src="Webpage.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
