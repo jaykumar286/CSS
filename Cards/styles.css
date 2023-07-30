@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 17rem;
+  height: 15rem;
+  border-radius: 1rem;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgba(152, 161, 161, 0.485);
+}
+
+.card {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 20rem;
+  height: 27rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
