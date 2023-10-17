@@ -1,0 +1,11 @@
+#progress{
+    border:5px solid black;
+    display: flex;
+}
+
+#progress_bar{
+    flex-basis: 75%;
+    padding: 1rem;
+    background-color: aqua;
+    text-align: center;
+}
